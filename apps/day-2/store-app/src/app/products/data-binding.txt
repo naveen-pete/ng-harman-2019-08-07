@@ -1,0 +1,18 @@
+<h4>Product Info</h4>
+
+<div>
+  Product Name: {{ productName }}
+</div>
+<div>
+  Price: {{ productPrice }}
+</div>
+<div>
+  <input type="text" [(ngModel)]="productName" (keyup)="onKeyup($event)">
+</div>
+<div>
+  <button (click)="onSave()">Save</button>
+</div>
+
+<div>
+  {{ productName }} is the latest device from Apple
+</div>

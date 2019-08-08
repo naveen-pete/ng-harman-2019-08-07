@@ -1,14 +1,9 @@
-import { Component, OnInit } from '@angular/core';
-
+import { Injectable } from '@angular/core';
 import { Product } from '../models/product';
 
-@Component({
-  selector: 'app-products',
-  templateUrl: './products.component.html',
-  styleUrls: ['./products.component.css']
-})
-export class ProductsComponent {
-  products: Product[] = [
+@Injectable()
+export class ProductsService {
+  private products: Product[] = [
     {
       name: 'Samsung Galaxy S10',
       price: 60000,
@@ -29,7 +24,15 @@ export class ProductsComponent {
     }
   ];
 
-  onProductCreated(product: Product) {
-    this.products.unshift(product);
+  constructor() { }
+
+  getProducts() {
+    console.log('ProductsService.getProducts() invoked.')
+    return this.products;
+  }
+
+  addProduct(product: Product) {
+    console.log('ProductsService.addProduct() invoked.')
+    this.products.push(product);
   }
 }
