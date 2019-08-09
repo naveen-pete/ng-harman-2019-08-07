@@ -1,0 +1,56 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Dell Inspiron 15 7000 Core i7 7th Gen",
+      "description": "Whether it’s fast-paced racing or action-packed roleplay, the Dell Inspiron 15 laptop is designed to make your gaming experience truly delightful",
+      "price": 94990,
+      "isAvailable": true
+    },
+    {
+      "id": 2,
+      "name": "Dell Vostro 15 3000 Series Core i3 7th Gen",
+      "description": "Laptops with the right balance of business features and outstanding support for small business",
+      "price": 31190,
+      "isAvailable": false
+    },
+    {
+      "id": 3,
+      "name": "DELL XPS 9370 13.3-inch FHD Laptop",
+      "description": "XPS For the ultimate experience Laptops with exceptional build quality, powerful features with manageability and security options",
+      "price": 98990,
+      "isAvailable": true
+    }
+  ],
+  "customers": [
+    {
+      "id": 1,
+      "name": "John",
+      "phone": "9988776655",
+      "email": "john@abc.xyz",
+      "city": "Bengaluru"
+    },
+    {
+      "id": 2,
+      "name": "Asif",
+      "phone": "1122334455",
+      "email": "asif@abc.xyz",
+      "city": "Chennai"
+    },
+    {
+      "id": 3,
+      "name": "Hari",
+      "phone": "3355776644",
+      "email": "hari@abc.xyz",
+      "city": "Mumbai"
+    },
+    {
+      "id": 4,
+      "name": "Amar",
+      "phone": "2244668800",
+      "email": "amar@abc.xyz",
+      "city": "New Delhi"
+    }
+  ],
+  "employees": []
+}
